@@ -1,0 +1,5 @@
+playback_buffer_size: 32768
+playback_sample_size: 32
+target_network_update_rate: 4096
+dqn_train_rate: 1
+epsilon_reduction: 0.999

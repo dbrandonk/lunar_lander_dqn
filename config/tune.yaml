@@ -1,0 +1,6 @@
+playback_buffer_size: [2048, 4096, 8192, 16384, 32768]
+playback_sample_size: [32, 64, 128, 256, 512]
+target_network_update_rate: [1024, 2048, 4096, 8192, 16384]
+dqn_train_rate: 1
+epsilon_reduction: 0.999
+num_samples: 16
