@@ -14,3 +14,9 @@ To be run at the root of the project.
 - python3 src/lunar_lander_dqn/run.py --tune config/tune.yaml --num_episodes 1000
 - python3 src/lunar_lander_dqn/run.py --train config/train.yaml --num_episodes 1000
 - python3 src/lunar_lander_dqn/run.py --run model/model.pth --num_episodes 10
+
+## TODO
+
+- Make mypy happy
+- Add input protections from an ill formed training/tuning configuration file
+- Set up CI pipeline for project (pylint, mypy, tests, etc)
